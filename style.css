@@ -1,0 +1,272 @@
+@font-face {
+    font-family: 'LabGrotesque-Regular';
+    src: url('/LabGrotesque-Regular.ttf') format('truetype');
+}
+html {
+    box-sizing: border-box;
+}
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+:root {
+    --main-color: black; /* Пример значения цвета */
+    --secondary-color: #ffffff;
+}
+body{
+    font-family: 'LabGrotesque-Regular', sans-serif;
+    font-size: 16px;
+    padding: 0px;
+    color: black;
+    height: 4470px;
+}
+.firstback{
+    height: 580px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+.welcome{
+    text-align: center;
+}
+.title
+{   
+    font-size: 14px;
+    margin-top: 57px;
+    opacity: 80%;
+}
+.article1
+{   
+    font-size: 33px;
+    margin-top: 12px;
+    margin-bottom: 0px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.text1{ 
+    font-size: 16px;
+    opacity: 80%;
+    margin: 16px auto;
+    padding: 0 20px;
+    line-height: 140%;
+}
+.header {
+    height: 100px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+.header__button{
+margin-left: 72px;
+margin-top: 38px;
+}
+.header__link{
+    margin-left: 119px;
+}
+.welcome{
+    height: 400px;
+    color: white;
+}
+.nav {
+    float: right;
+}
+.top50{
+    color: #F31B62;
+    font-size: 16px;
+    height: 16px;
+    margin-top: 33px;
+    margin-bottom: 1px;
+}
+.tree1{
+    width: 18px;
+    margin-right: 28px;
+}
+.eat{
+    margin-top: 5px;
+}
+.tree2{
+    width: 18px;
+    height: 43.5px;
+    margin-left: 28px;
+}
+
+.linkta {
+    width: 126px;
+    font-size: 16px;
+    background-color: #ffffff;
+    color: #000000; 
+    font-weight: bold;
+    display: flex;
+    padding: 18px 100px;
+    margin-top: 22px;
+    margin-left: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 35px;
+}
+
+.wrapper {
+    background-image: url(./images/back.png);
+    background-repeat: no-repeat;
+}
+.second
+{
+    color:black;
+    margin-top: 60px;
+    padding: 0px 16px;
+}
+h2{
+    font-size: 14px;
+    text-align: left;
+}
+.text2{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    line-height: 120%;
+}
+.text3{
+    font-size: 14px;
+    font-weight: lighter;
+    text-align: left;
+    margin-bottom: 40px;
+    line-height: 140%;
+}
+.text4{
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 40px;
+    line-height: 170%;
+}
+
+
+.list {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    font-size: 14px;
+    line-height: 140%;
+}
+.list1 {
+    display: flex;
+}
+.line-200 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 12px;
+
+}
+.line2 {
+    margin-left: 24px;
+}
+.line-5 {
+    font-size: 40px;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+.list2 {
+    display: flex;
+    margin-top: 24px;
+}
+
+.line3 {
+    width: 152px;
+}
+.line-100 {
+    font-size: 40px;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+.line4 {
+    margin-right: 24px;
+}
+.line-1000 {
+    font-size: 40px;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+.third{
+    color: black;
+    margin-top: 76px;
+    padding: 0px 16px;}
+.page {
+    position: relative;
+}
+.comma {
+    margin-left: 20px;
+    position: absolute;
+    right: 270px;
+    top: 1720px;
+}
+.third-text{
+    text-align: left;
+}
+.article2 {
+    font-size: 22px;
+    margin-top: 24px;
+    line-height: 130%;
+}
+.chief {
+    font-size: 14px;
+    margin-top: 40px;
+}
+.name{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.why_we{
+    color: black;
+    margin-top: 60px;
+    padding: 0px 16px;
+
+}
+.linewe {
+    text-align: left;
+    font-size: 14px;
+
+}
+.article3 {
+    text-align: left;
+    font-size:24px;
+    font-weight: bold;
+}
+.video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;/*как по центру ебнуть видео */
+}
+
+.frame-list-108 {
+    list-style-type: none;
+}
+
+
+.wrapper-2{
+    background-color: #222733;
+    background-image: url(./images/Rectangle\ 65393.png);
+    background-repeat: no-repeat;
+    height: 624px;
+}
+.end{
+    color:#ffffff;
+    margin-top: 116px;
+    padding: 0px 16px;
+    text-align: left;
+    height: 624px;
+}
+.CMI {
+    font-size: 14px;
+    opacity: 80%;
+    padding-top: 100px;
+}
+.endtxt{
+    font-size: 26px;
+    padding-top: 40px;
+    padding-bottom: 36px;
+}
+
+
