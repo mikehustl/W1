@@ -11,13 +11,14 @@ html {
 :root {
     --main-color: black; /* Пример значения цвета */
     --secondary-color: #ffffff;
+
 }
 body{
     font-family: 'LabGrotesque-Regular', sans-serif;
     font-size: 16px;
     padding: 0px;
     color: black;
-    height: 4470px;
+    height: 100%;
 }
 .firstback{
     height: 580px;
@@ -26,7 +27,17 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
 }
 .welcome{
+    height: 580px;
+    color: white;
     text-align: center;
+    display: flex;
+    align-items: center;
+}
+.wrapper {
+    width: 0%;
+}
+
+.block-text {
 }
 .title
 {   
@@ -55,6 +66,7 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     align-items: start;
     justify-content: center;
+    position: absolute;
 }
 .header__button{
 margin-left: 72px;
@@ -63,52 +75,47 @@ margin-top: 38px;
 .header__link{
     margin-left: 119px;
 }
-.welcome{
-    height: 400px;
-    color: white;
-}
 .nav {
     float: right;
+}
+
+.block-text2 {
+    align-items: center;
 }
 .top50{
     color: #F31B62;
     font-size: 16px;
-    height: 16px;
     margin-top: 33px;
     margin-bottom: 1px;
 }
 .tree1{
-    width: 18px;
-    margin-right: 28px;
+    margin-left: 28px;
 }
 .eat{
-    margin-top: 5px;
+
 }
 .tree2{
-    width: 18px;
-    height: 43.5px;
-    margin-left: 28px;
+    transform: scale(-1, 1);
+    margin-right: 28px;
+}
+
+.button-z {
+    display: inline-block;
+    padding: 18px 100px;
+    margin-top: 32px;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
 }
 
 .linkta {
-    width: 126px;
     font-size: 16px;
-    background-color: #ffffff;
-    color: #000000; 
-    font-weight: bold;
-    display: flex;
-    padding: 18px 100px;
-    margin-top: 22px;
-    margin-left: 20px;
-    text-align: center;
     text-decoration: none;
-    margin-bottom: 35px;
+    color: #000;
 }
 
-.wrapper {
-    background-image: url(./images/back.png);
-    background-repeat: no-repeat;
-}
 .second
 {
     color:black;
@@ -141,64 +148,55 @@ h2{
 
 
 .list {
-    display: flex;
-    justify-content: start;
-    flex-wrap: wrap;
     margin-top: 50px;
-    font-size: 14px;
-    line-height: 140%;
 }
-.list1 {
-    display: flex;
-}
-.line-200 {
-    font-size: 40px;
-    font-weight: bold;
-    margin-bottom: 12px;
 
+.stats {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
-.line2 {
-    margin-left: 24px;
+
+.stats li {
+    display: inline-grid;
+    align-items: center;
+    width: 152px;
 }
-.line-5 {
-    font-size: 40px;
-    margin-bottom: 12px;
+
+.stats li:last-child {
+    border-bottom: none;
+}
+
+.stats li .number {
     font-weight: bold;
-}
-.list2 {
-    display: flex;
+    font-size: 40px;
+    margin-right: 10px;
     margin-top: 24px;
 }
 
-.line3 {
-    width: 152px;
-}
-.line-100 {
-    font-size: 40px;
-    margin-bottom: 12px;
-    font-weight: bold;
-}
-.line4 {
-    margin-right: 24px;
-}
-.line-1000 {
-    font-size: 40px;
-    margin-bottom: 12px;
-    font-weight: bold;
+.stats li .text {
+    font-size: 14px;
+    line-height: 140%;
+    margin-top: 12px;
 }
 
 .third{
     color: black;
     margin-top: 76px;
-    padding: 0px 16px;}
-.page {
-    position: relative;
+    padding: 0px 16px;
 }
+
+figure {
+    display: flex;
+    flex-flow: column;
+    margin:auto;
+}
+
 .comma {
     margin-left: 20px;
-    position: absolute;
     right: 270px;
-    top: 1720px;
+    top: 1880px;
+    position: absolute;
 }
 .third-text{
     text-align: left;
@@ -234,14 +232,11 @@ h2{
     font-size:24px;
     font-weight: bold;
 }
-.video {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;/*как по центру ебнуть видео */
-}
 
 .frame-list-108 {
     list-style-type: none;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -261,12 +256,46 @@ h2{
 .CMI {
     font-size: 14px;
     opacity: 80%;
-    padding-top: 100px;
+    padding-top: 60px;
+}
+.two-zap {
+    margin-top: 42px;
+}
+.arrow {
+    margin-left: 100px;
+}
+.arrow-2 {
+    margin-left: 6px;
 }
 .endtxt{
     font-size: 26px;
-    padding-top: 40px;
-    padding-bottom: 36px;
+    padding-top: 24px;
+    padding-bottom: 6px;
+    line-height: 130%;
+}
+.footer {
+    color: #222733;
+    padding: 0px 16px;
+    text-align: left;
+}
+
+.nordic {
+    margin-top: 40px;
+}
+
+.numberr {
+    margin-top:32px;
+}
+
+.restaurant {
+    position: relative;
+    bottom: 35px;
+    left: 150px;
+    max-width: 200px;
+}
+
+.links {
+    margin-top: 32px;
 }
 
 
